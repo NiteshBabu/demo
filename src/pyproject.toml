@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "demo"
+version = "0.1.0"
+description = "Demo Project By Nitesh"
+authors = ["niteshbabu <n.babu@clerkswell.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Django = "=5.0"
+python-decouple = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -5,4 +5,5 @@ from django.db import models
 
 class PageHits(models.Model):
     page = models.CharField(max_length=255, blank=True, null=True)
-    hits = models.IntegerField(default=0)
+    hits = models.IntegerField(default=1)
+    timestamp = models.DateTimeField(auto_now_add=True)

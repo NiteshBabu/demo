@@ -1,0 +1,8 @@
+{% extends "base.html" %} 
+
+{%block content %} 
+    {% include "snippets/msg.html" %}
+
+    <p>Page Name : {{page_hit.page}}</p>
+    <p>Hits : {{page_hit.hits}}</p>
+{%endblock%}
